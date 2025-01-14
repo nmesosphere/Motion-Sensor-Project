@@ -1,2 +1,2 @@
 # Motion-Sensor-Project
-C code for microcontroller-controlled LEDs.
+Programmable LED light array controlled by PIR sensor (Infrared) and ATMega328P microcontroller. Code only.
