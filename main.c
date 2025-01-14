@@ -7,12 +7,13 @@
  * Microcontroller: ATMega328P (Miuzei)
  */ 
 
+// NOTE:: This is simply a base; will be tested and improved with time. 
+
 #include <stdio.h>
 #include <avr/io.h>
 
 int main(void)
 {
-	//TODO:: Please write your application code
 	DDRD &= ~(1 << DDD3); // Sets pin 3 (PD3) of microcontroller to 'input'
 	DDRD |= (1 << DDD7); // Sets pin 7 (PD7) of the microcontroller to 'output'
 	
